@@ -1,6 +1,7 @@
 {
   "name": "ai-se_project_mesh-ai",
   "version": "1.0.0",
+  "part": "1",
   "description": "Web platform to help get answers from documents using AI",
   "main": "index.js",
   "scripts": {
