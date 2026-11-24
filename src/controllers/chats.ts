@@ -25,7 +25,7 @@ export const getChat = (req: Request, res: Response): void => {
 };
 
 export const deleteChat = (req: Request, res: Response): void => {
-    res.status(204);
+    res.status(204).end();
 };
 
 export const sendMessage = (req: Request, res: Response): void => {

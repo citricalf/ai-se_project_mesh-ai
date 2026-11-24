@@ -25,5 +25,5 @@ export const getDocument = (req: Request, res: Response): void => {
 };
 
 export const deleteDocument = (req: Request, res: Response): void => {
-    res.status(204);
+    res.status(204).end();
 };
