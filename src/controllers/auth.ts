@@ -1,5 +1,21 @@
 import type { Request, Response } from 'express';
 
+export const createNewUser = (req: Request, res: Response): void => {
+    res.status(201).json({
+        success: true,
+        data: {},
+        error: null
+    });
+};
+
+export const authUser = (req: Request, res: Response): void => {
+    res.status(200).json({
+        success: true,
+        data: {},
+        error: null
+    });
+};
+
 export const getCurrentUser = (req: Request, res: Response): void => {
     res.status(200).json({
         success: true,
